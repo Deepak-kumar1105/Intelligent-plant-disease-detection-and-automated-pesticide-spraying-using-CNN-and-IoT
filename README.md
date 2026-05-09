@@ -1,0 +1,1 @@
+# Intelligent-plant-disease-detection-and-automated-pesticide-spraying-using-CNN-and-IoT

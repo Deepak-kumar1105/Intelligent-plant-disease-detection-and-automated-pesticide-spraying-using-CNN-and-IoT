@@ -1,4 +1,5 @@
 **Intelligent Plant Disease Detection and Automated Pesticide Spraying System using CNN and IoT**
+
 An AI-powered smart agriculture system that detects tomato leaf diseases using a CNN-based deep learning model and automatically activates a pesticide spraying mechanism using ESP32 and IoT technology. The system performs real-time image processing, sends Telegram alerts, updates an OLED display, and controls a relay-operated pump for automated crop protection.
 
 🚀 Features 

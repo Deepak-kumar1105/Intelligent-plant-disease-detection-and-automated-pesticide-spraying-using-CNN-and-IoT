@@ -4,12 +4,10 @@ An AI-powered smart agriculture system that detects tomato leaf diseases using a
 
 🚀 Features 
 
-**Real-time Disease Detection:**
+Real-time Disease Detection: Uses a ResNet18 CNN model to identify plant diseases from live webcam images.
 
-Uses a ResNet18 CNN model to identify plant diseases from live webcam images.
-**Automated Pesticide Spraying:**
+Automated Pesticide Spraying: ESP32 automatically activates a relay-controlled pump when disease confidence exceeds a predefined threshold.
 
-ESP32 automatically activates a relay-controlled pump when disease confidence exceeds a predefined threshold.
 **IoT Communication:**
 
 Python application communicates with ESP32 over Wi-Fi using HTTP POST requests and JSON data.

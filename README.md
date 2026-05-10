@@ -5,18 +5,25 @@ An AI-powered smart agriculture system that detects tomato leaf diseases using a
 🚀 Features 
 
 **Real-time Disease Detection:**
+
 Uses a ResNet18 CNN model to identify plant diseases from live webcam images.
 **Automated Pesticide Spraying:**
+
 ESP32 automatically activates a relay-controlled pump when disease confidence exceeds a predefined threshold.
 **IoT Communication:**
+
 Python application communicates with ESP32 over Wi-Fi using HTTP POST requests and JSON data.
 **Telegram Alerts:**
+
 Sends disease detection notifications and captured images directly to Telegram for remote monitoring.
 **OLED Monitoring System:**
+
 Displays disease name, confidence percentage, and pump status on an SSD1306 OLED display.
 **Image Preprocessing Pipeline:**
+
 Implements Gaussian filtering, HSV segmentation, and morphological operations for improved prediction accuracy.
 **Real-time Visual Feedback:**
+
 Displays filtered images, segmented leaves, and disease contour highlighting using OpenCV.
 
 🛠️ Hardware Components
@@ -26,8 +33,8 @@ ESP32 Development Board
 * Display:
 SSD1306 OLED Display (I2C)
 * Actuator:
-  *Relay Module
-  *Mini Water Pump / Pesticide Sprayer
+  * Relay Module
+  * Mini Water Pump / Pesticide Sprayer
 * Sensors & Imaging:
 USB Webcam / ESP32-CAM
 * Power:
@@ -129,19 +136,24 @@ on both:
 
 OLED Display
 Telegram Notifications
+
 📱 Output Features
+
 Live Disease Detection
 Automated Pump Activation
 Telegram Alert System
 OLED Status Display
 Real-time OpenCV Visualization
+
 🔮 Future Improvements
+
 Multi-crop disease detection
 Mobile application integration
 Cloud database storage
 Solar-powered deployment
 AI model optimization for edge devices
 Smart dosage control system
+
 👨‍💻 Author
 
 N. Deepak Kumar
